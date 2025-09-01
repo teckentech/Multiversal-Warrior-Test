@@ -1,4 +1,4 @@
-
+    var Decimal = require("break_infinity.js");
 var IShowableClass;
 var IGameData;
 var ITraining
@@ -5338,6 +5338,8 @@ function ascensionRings(div, valore, spacingFactor = 1, padding = 0, startPercen
 // funzione per scalare i cerchi
 function scaleAscensionRings(factor) {
   IShowableClass.svg.ascensionCirclesScale = IShowableClass.svg.ascensionCirclesScale * factor
+
+  console.log(IShowableClass.svg.ascensionCirclesScale)
 }
 
 document.getElementById('scale-up').addEventListener('click', () => scaleAscensionRings(1.1));
@@ -7719,7 +7721,7 @@ function visualLoopFunction() {
 
   visualMenu()
 
-  let n1 = new Decimal(1e400);
+  let n1 = new Decimal(1e300);
   console.log(n1.toString()); // "1e12"
 
   //formatA(f(5e333))
