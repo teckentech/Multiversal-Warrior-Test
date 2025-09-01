@@ -1,4 +1,4 @@
-
+    var Decimal = require("break_infinity.js");
 var IShowableClass;
 var IGameData;
 var ITraining
@@ -5361,6 +5361,14 @@ function ascensionRings(div, valore, spacingFactor = 1, padding = 0, startPercen
 function scaleAscensionRings(factor) {
   IShowableClass.svg.ascensionCirclesScale = IShowableClass.svg.ascensionCirclesScale * factor
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  console.log(IShowableClass.svg.ascensionCirclesScale)
+>>>>>>> parent of e2ca43c (aaeg)
+=======
+  console.log(IShowableClass.svg.ascensionCirclesScale)
+>>>>>>> parent of e2ca43c (aaeg)
 }
 
 document.getElementById('scale-up').addEventListener('click', () => scaleAscensionRings(1.1));
@@ -7580,6 +7588,17 @@ function visualLoopFunction() {
 
   visualMenu()
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of e2ca43c (aaeg)
+  let n1 = new Decimal(1e300);
+  console.log(n1.toString()); // "1e12"
+
+  //formatA(f(5e333))
+
+>>>>>>> parent of e2ca43c (aaeg)
   visualLore()
 
   visualAutomation()
