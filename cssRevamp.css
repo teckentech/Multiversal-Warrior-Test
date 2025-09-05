@@ -3531,7 +3531,11 @@ button,
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #options_discord{
+=======
+#options_discord {
+>>>>>>> Stashed changes
 =======
 #options_discord {
 >>>>>>> Stashed changes
@@ -3543,7 +3547,11 @@ button,
   border: none;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: transparent;
+=======
+  background-color: transparent;
+>>>>>>> Stashed changes
 =======
   background-color: transparent;
 >>>>>>> Stashed changes
@@ -3552,7 +3560,10 @@ button,
   background-position: center;
   background-size: contain;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 }
 
 #mainMenuDirectionArrow1 {
@@ -3631,5 +3642,8 @@ button,
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

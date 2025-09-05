@@ -2317,7 +2317,11 @@ function valuesSetter(type) {
   //HUNT REWARD 3
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   IFight.normalHuntingRewards.upgrade3.name = `Essence/s ×<span class="boldBlackBorder">Slime (${format(f(IFight.normalHuntingRewards.upgrade3.effect), 0)})</span>`
+=======
+  IFight.normalHuntingRewards.upgrade3.name = `Slime multiplies Essence ×<span class="boldBlackBorder">${format(f(IFight.normalHuntingRewards.upgrade3.effect), 0)}</span>`
+>>>>>>> Stashed changes
 =======
   IFight.normalHuntingRewards.upgrade3.name = `Slime multiplies Essence ×<span class="boldBlackBorder">${format(f(IFight.normalHuntingRewards.upgrade3.effect), 0)}</span>`
 >>>>>>> Stashed changes
@@ -4851,6 +4855,7 @@ document.getElementById("content1_7_ascension_button").onclick = function () {
       partialResetSave(1)
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       if (IFight.youStats.fightController1 && typeof IFight.youStats.fightController1.abort === "function") {
         IFight.youStats.fightController1.abort();
         IFight.youStats.fightController1 = null;
@@ -4862,12 +4867,17 @@ document.getElementById("content1_7_ascension_button").onclick = function () {
       }
 
 =======
+=======
+>>>>>>> Stashed changes
       ITraining.base.base1.active = training1Status1
       ITraining.base.base2.active = training1Status2
       ITraining.base.base3.active = training1Status3
       ITraining.base.base4.active = training1Status4
 
       //universe
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       IUniversal.universe = f(IUniversal.universe).add(f(1))
 
@@ -5213,10 +5223,13 @@ document.getElementById("fp3_content1_8_auto5_b1").onclick = function () {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 //discord link
 document.getElementById("options_discord").onclick = function () {
   window.open("https://discord.gg/6wpH3wuv", "_blank");
 =======
+=======
+>>>>>>> Stashed changes
 document.getElementById("fp3_content1_8_auto6_b1").onclick = function () {
   if (f(IUniversal.automation.automation6.level).lt(f(IUniversal.automation.automation6.maxLevel))) {
     buy(IUniversal.automation.automation6, "level", 1, "uniChallenger")
@@ -5248,6 +5261,9 @@ document.getElementById("optionsMisc_notation_b1").onclick = function () {
   } else {
     IPermanent.notationCont = f(IPermanent.notationCont).add(f(1))
   }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
 
@@ -5744,6 +5760,7 @@ function ascensionRings(div, valore, spacingFactor = 1, padding = 0, startPercen
 function scaleAscensionRings(factor) {
   IShowableClass.svg.ascensionCirclesScale = IShowableClass.svg.ascensionCirclesScale * factor
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5753,6 +5770,8 @@ function scaleAscensionRings(factor) {
 =======
   console.log(IShowableClass.svg.ascensionCirclesScale)
 >>>>>>> parent of e2ca43c (aaeg)
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 }
@@ -8249,6 +8268,7 @@ function visualLoopFunction() {
   }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   visualMenu()
 
 <<<<<<< HEAD
@@ -8258,6 +8278,11 @@ function visualLoopFunction() {
 >>>>>>> parent of e2ca43c (aaeg)
   let n1 = new Decimal(1e300);
   console.log(n1.toString()); // "1e12"
+=======
+  if (checkShow("fp3_content1_8")) {
+    menuDirectionArrow("fp3_content1_8")
+  }
+>>>>>>> Stashed changes
 =======
   if (checkShow("fp3_content1_8")) {
     menuDirectionArrow("fp3_content1_8")
