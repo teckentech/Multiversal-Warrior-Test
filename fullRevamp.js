@@ -2018,8 +2018,6 @@ function valuesSetter(type) {
 
   sel2.showLevel = f(sel2.level).add(f(extraEffect1))
 
-  console.log(format(f(sel.showLevel)))
-
   if (IUniversal.huntEvolution.b2.active1) {
     var extraEffect2 = f(IUniversal.huntEvolution.b2.effect1);
   } else {
