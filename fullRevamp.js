@@ -5727,7 +5727,7 @@ function visualMenu() {
   document.getElementById("menu2").style.backgroundImage = `url("images/mountain.png")`
   document.getElementById("menu2").style.zIndex = 2
 
-  document.getElementById("menu3").style.backgroundImage = `url("images/sky3.png")`
+  document.getElementById("menu3").style.backgroundImage = `url("images/sky gradient.png")`
   document.getElementById("menu3").style.zIndex = 1
 
 
