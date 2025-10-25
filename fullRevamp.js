@@ -19152,20 +19152,20 @@ function loopShow() {
 
   //WATER
 
-  if (IUniversal.fireTree.node1.unlocked) {
+  if (IUniversal.waterTree.node2.unlocked) {
     unlockShow("content2_19_zone1", true)
   } else {
     unlockShow("content2_19_zone1", false)
   }
 
-  if (IUniversal.fireTree.node6.unlocked) {
+  if (IUniversal.waterTree.node6.unlocked) {
     unlockShow("content2_19_zone2", true)
   } else {
     unlockShow("content2_19_zone2", false)
   }
 
 
-  if (IUniversal.fireTree.node6.unlocked) {
+  if (IUniversal.waterTree.node6.unlocked) {
     unlockShow("content2_19_zone3", true)
   } else {
     unlockShow("content2_19_zone3", false)
