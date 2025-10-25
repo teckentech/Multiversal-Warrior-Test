@@ -11,6 +11,14 @@
 
     <title>Multiversal Warrior</title>
 
+    <script type="module">
+        import Decimal from "./libs/break_infinity.esm.js";
+        window.Decimal = Decimal;
+
+        import * as Vue from "./libs/vue.esm-browser.js";
+        window.Vue = Vue;
+    </script>
+
 </head>
 
 <body id="bodyMain">
@@ -1596,16 +1604,15 @@
                                 </div>
                             </div>
 
-                            <div id="content2_19_tutorial"
-                                class="bdefaultButtonSkin column backgroundBlue3 relative">
+                            <div id="content2_19_tutorial" class="bdefaultButtonSkin column backgroundBlue3 relative">
                                 <div class="backgroundBlue1 margin1 roundedEdges">
-                                <div>1. Craft Potion</div>
-                                <div>2. Drag Potion and Drop it a slot</div>
-                                <div>3. Upgrade Potion</div>
+                                    <div>1. Craft Potion</div>
+                                    <div>2. Drag Potion and Drop it a slot</div>
+                                    <div>3. Upgrade Potion</div>
                                 </div>
                                 <div class="backgroundBlue1 margin1 roundedEdges">
-                                <div>How to Unequip:</div>
-                                <div>1. Drag Equipped Potion and Drop it in the grid</div>
+                                    <div>How to Unequip:</div>
+                                    <div>1. Drag Equipped Potion and Drop it in the grid</div>
                                 </div>
                             </div>
 
@@ -1615,8 +1622,8 @@
                                     class="width100 centerDivTopColumns backgroundBlue1 roundedEdges">
                                     <div>TRAINING</div>
                                     <div id="content2_19_potion_item1" class="bDefaultStyle blu"></div>
-                                    <div class="padding2 backgroundBlue2 roundedEdges class=" v-if="universalIn.equipment"
-                                        v-html="universalIn.equipment.item1.content">
+                                    <div class="padding2 backgroundBlue2 roundedEdges class="
+                                        v-if="universalIn.equipment" v-html="universalIn.equipment.item1.content">
                                     </div>
                                 </div>
 
@@ -1624,8 +1631,8 @@
                                     class="width100 centerDivTopColumns backgroundBlue1 roundedEdges">
                                     <div>HUNTING</div>
                                     <div id="content2_19_potion_item2" class="bDefaultStyle blu"></div>
-                                    <div class="padding2 backgroundBlue2 roundedEdges class=" v-if="universalIn.equipment"
-                                        v-html="universalIn.equipment.item2.content">
+                                    <div class="padding2 backgroundBlue2 roundedEdges class="
+                                        v-if="universalIn.equipment" v-html="universalIn.equipment.item2.content">
                                     </div>
                                 </div>
 
@@ -1633,17 +1640,17 @@
                                     class="width100 centerDivTopColumns backgroundBlue1 roundedEdges">
                                     <div>ATTRIBUTES</div>
                                     <div id="content2_19_potion_item3" class="bDefaultStyle blu"></div>
-                                    <div class="padding2 backgroundBlue2 roundedEdges class=" v-if="universalIn.equipment"
-                                        v-html="universalIn.equipment.item3.content">
+                                    <div class="padding2 backgroundBlue2 roundedEdges class="
+                                        v-if="universalIn.equipment" v-html="universalIn.equipment.item3.content">
                                     </div>
                                 </div>
 
                                 <div id="content2_19_potionEquip_4"
-                                 class="width100 centerDivTopColumns backgroundBlue1 roundedEdges">
+                                    class="width100 centerDivTopColumns backgroundBlue1 roundedEdges">
                                     <div>CHALLENGER</div>
                                     <div id="content2_19_potion_item4" class="bDefaultStyle blu"></div>
-                                    <div class="padding2 backgroundBlue2 roundedEdges class=" v-if="universalIn.equipment"
-                                        v-html="universalIn.equipment.item4.content">
+                                    <div class="padding2 backgroundBlue2 roundedEdges class="
+                                        v-if="universalIn.equipment" v-html="universalIn.equipment.item4.content">
                                     </div>
                                 </div>
 
@@ -2091,25 +2098,18 @@
 
     <script src="./libs/lz-string.js"></script>
 
-    <script type="module">
-        import Decimal from "./libs/break_infinity.esm.js";
-        window.Decimal = Decimal;
-
-        import * as Vue from "./libs/vue.esm-browser.js";
-        window.Vue = Vue;
-    </script>
 
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- 2. Carica il tuo script personalizzato (che utilizza BreakInfinity.js) -->
-    <script type="module" src="fullRevamp.js?v=1.66" charset="utf-8"></script>
+    <script type="module" src="fullRevamp.js?v=1.67" charset="utf-8"></script>
 
     <!-- 3. Carica altre librerie necessarie, come crypto-js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 
     <!-- 4. Carica il file CSS per la formattazione -->
-    <link rel="stylesheet" href="cssRevamp.css?v=1.66">
+    <link rel="stylesheet" href="cssRevamp.css?v=1.67">
 
     <!--<script src="./libs/dist/vue.global.js"></script>-->
 </body>

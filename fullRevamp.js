@@ -4960,8 +4960,6 @@ function valuesSetter(type) {
     cLife6 = f(1)
   }
 
-  console.log(format(f(cLife5)))
-
   IFightIn.challengers.baseChallenger.life = ((f(10).mul(((((f(5).add(f(cLife3)).add(f(cLife5))).pow(f(cLife1).minus(f(1)))))))).dividedBy(f(cLife4).mul(f(cLife6))))
 
 
@@ -12004,7 +12002,6 @@ function valuesSetter(type) {
     IUniversalIn.potionEffects.effect17.activeValue = (f(2).add(f(effectLevel).minus(f(1)))).pow(f(potionLevel).add(f(1)))
   }
 
-  console.log(potionLevel, effectLevel, format(f(IUniversalIn.potionEffects.effect17.activeValue)))
   IUniversalIn.potionEffects.effect17.value = IUniversalIn.potionEffects.effect17.valueFormula()
 
   IUniversalIn.potionEffects.effect17.contentFormula = function () { return `Challenger Damage <span class="boldBlackBorder">/${format(f(this.value))}</span> (${format(f(IFightIn.challengers.baseChallenger.damage))})` }
@@ -12241,7 +12238,6 @@ function getPotionLevel(effType, type) {
           var sel2 = IUniversal.inventoryStorage[sel.key].effects[y]
 
           if (sel2.type == effType) {
-            console.log(sel2.type)
             return f(obj.level)
           }
         }
@@ -21086,7 +21082,6 @@ function draggableSet(item, key, keyIn, type) {
 
   item.addEventListener("mouseenter", function (e) {
     var selectedKey = eval(key).key;
-    console.log(selectedKey)
 
     if (!IUniversal.lockSelPotion) {
       IUniversal.selPotion = selectedKey || null;
