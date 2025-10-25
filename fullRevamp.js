@@ -15833,7 +15833,7 @@ function visualMenu() {
 
     document.getElementById("fp2_content2_17_image").style.backgroundImage = `url("images/Fire Version1.png")`
 
-    document.getElementById("fp2_content2_19_image").style.backgroundImage = `url("images/Water Version1.png")`
+    document.getElementById("fp2_content2_19_image").style.backgroundImage = `url("images/Water version1.png")`
     //notes
 
     document.getElementById("fp2_content2_18_image").style.backgroundImage = `url("images/note 6 version 1.png")`
