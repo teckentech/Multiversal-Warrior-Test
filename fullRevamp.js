@@ -12950,7 +12950,7 @@ function valuesSetterDinamic(type) {
   var water6 = f(IUniversalIn.potionSource.item1.value2)
 
   IUniversal.waterProdBase = ((f(water2))).mul(f(water3)).mul(f(water4)).mul(f(water6)).mul(f(water5)).mul(f(IGameData.baseTickSpeed))
-  IUniversal.waterProd = ((f(water2))).mul(f(water3)).mul(f(water4)).mul(f(water6)).mul(f(water5)).mul(f(IGameData.tickSpeed))
+  IUniversal.waterProd = ((f(water2))).mul(f(water3)).mul(f(water4)).mul(f(water6)).mul(f(water5)).mul(f(IGameData.tickSpeed)).mul(f(10000))
 
   //water
 
