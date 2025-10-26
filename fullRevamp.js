@@ -4133,9 +4133,9 @@ function visualValute() {
     }
     unlockShow("fireValute", true)
 
-      if (checkShow("fp2_content2_19_container")) {
-    unlockShow("waterValute", true)
-  }
+    if (checkShow("fp2_content2_19_container")) {
+      unlockShow("waterValute", true)
+    }
   }
 
   update("powerValute", `<div><div>Power</div><div class="boldBlackBorder">${format(IGameData.power, 1)}</span></div>`)
@@ -16726,7 +16726,7 @@ function visualInventoryWater() {
   if (IUniversal.selPotion != null && IUniversal.selPotion != undefined && IUniversal.selPotion != "" && IUniversalIn.inventoryStorage[IUniversal.selPotion]) {
     update("content2_19_potion_info", IUniversalIn.inventoryStorage[IUniversal.selPotion].content2)
   } else {
-update("content2_19_potion_info", "")
+    update("content2_19_potion_info", "")
   }
 
 }
@@ -18425,7 +18425,7 @@ function loopShow() {
     unlockShow("fp2_content2_11_container", false)
     unlockShow("fp2_content1_8", false)
     unlockShow("fp2_content2_16_container", false)
-    unlockShow("fp2_content3_pageSel", false)
+    unlockShow("fp2_content3_pageSel", true)
 
 
   }
@@ -18434,8 +18434,8 @@ function loopShow() {
   unlockShow("fp2_content2_17_container", true)
   unlockShow("fp2_content2_18_container", true)
 
-  unlockShow("fp2_content2_19_container", true)
-  unlockShow("fp2_content2_20_container", true)
+    unlockShow("fp2_content2_19_container", true)
+    unlockShow("fp2_content2_20_container", true)
 
   //PROGRESS BARS
   //CHALLENGER
