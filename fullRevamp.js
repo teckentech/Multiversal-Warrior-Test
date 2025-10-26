@@ -4132,10 +4132,10 @@ function visualValute() {
       unlockShow("universalCoresBase", true)
     }
     unlockShow("fireValute", true)
-  }
 
-  if (checkShow("fp2_content2_19_container")) {
+      if (checkShow("fp2_content2_19_container")) {
     unlockShow("waterValute", true)
+  }
   }
 
   update("powerValute", `<div><div>Power</div><div class="boldBlackBorder">${format(IGameData.power, 1)}</span></div>`)
